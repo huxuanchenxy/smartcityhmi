@@ -115,6 +115,7 @@ export async function createComponent(name: string) {
 
     // button
     case "Button":
+    case "Button2":
     case "FullScreen":
     case "Switch":
     case "Slider":{

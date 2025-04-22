@@ -409,6 +409,33 @@
     ]
   },
   {
+    "component": "VButton2",
+    "actions": [
+      {
+        "methodCode": "show",
+        "methodName": "显示"
+      },
+      {
+        "methodCode": "hide",
+        "methodName": "隐藏"
+      }
+    ],
+    "events": [
+      {
+        "name": "click",
+        "title": "点击"
+      },
+      {
+        "name": "mouseEnter",
+        "title": "鼠标移入"
+      },
+      {
+        "name": "mouseLeave",
+        "title": "鼠标移出"
+      }
+    ]
+  },
+  {
     "component": "VDropDownList",
     "actions": [
       {

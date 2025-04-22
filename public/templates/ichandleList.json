@@ -277,6 +277,35 @@
     ]
   },
   {
+    "component": "VButton2",
+    "icevents": [
+      {
+        "name": "property",
+        "title": "属性-点位",
+        "properties": [
+          {
+            "name": "按钮文字",
+            "type":"string",
+            "path": "config.content.buttonContent"
+          },
+          {
+            "name": "文字颜色",
+            "type":"color",
+            "path": "config.fontStyle.fontColor"
+          }      
+        ],
+        "events": null
+      },
+      {
+        "name": "event",
+        "title": "事件-点位",
+        "properties": null,
+        "events": [
+        ]
+      }
+    ]
+  },
+  {
     "component": "VSwitch",
     "icevents": [
       {

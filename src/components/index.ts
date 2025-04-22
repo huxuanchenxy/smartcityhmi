@@ -61,6 +61,7 @@ import VCarouselTable from './carousel/carousel-table'
 import VTable from './carousel/table'
 
 import VButton  from  './button/button'
+import VButton2  from  './button/button2'
 import VFunnel from './horizontal/funnel'
 import VQuickText from './text/quick-text'
 import VProgress from './line/progress'
@@ -149,6 +150,7 @@ const components = [
   VBasicCarousel,
   VCarouselTable,
   VButton,
+  VButton2,
   VFunnel,
   VDrillDownBar,
   VQuickText,

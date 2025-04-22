@@ -4,14 +4,14 @@
     "config": {
       "type": "string",
       "component": "input",
-      "alias": "",
-      "tip": "",
+      "alias": "标题名2",
+      "tip": "支持从数据中获取标题内容，详见数据面板",
       "displayMode": "single",
       "features": [],
       "layout": "horizontal",
       "toggleCol": "",
       "isHide": false,
-      "defaultValue": "我是标题数据2",
+      "defaultValue": "我是标题数据",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -33,7 +33,7 @@
     "config": {
       "type": "object",
       "component": "none",
-      "alias": "",
+      "alias": "文本样式",
       "tip": "",
       "displayMode": "nest",
       "features": [],
@@ -61,9 +61,9 @@
         "key": "fontFamily",
         "config": {
           "type": "string",
-          "component": "input",
-          "alias": "",
-          "tip": "",
+          "component": "fontFamily",
+          "alias": "字体",
+          "tip": "请选择您系统有的字体,如果您系统无此字体,标题将会显示默认字体",
           "displayMode": "single",
           "features": [],
           "layout": "horizontal",
@@ -91,7 +91,7 @@
         "config": {
           "type": "number",
           "component": "number",
-          "alias": "",
+          "alias": "字号",
           "tip": "",
           "displayMode": "single",
           "features": [],
@@ -99,12 +99,12 @@
           "toggleCol": "",
           "isHide": false,
           "defaultValue": 24,
-          "min": 0,
+          "min": 12,
           "max": 100,
           "step": 1,
           "InfiniteMin": false,
           "InfiniteMax": false,
-          "suffix": "",
+          "suffix": "px",
           "enums": [],
           "whichEnum": {
             "field": "",
@@ -119,8 +119,8 @@
         "key": "color",
         "config": {
           "type": "string",
-          "component": "input",
-          "alias": "",
+          "component": "color",
+          "alias": "颜色",
           "tip": "",
           "displayMode": "single",
           "features": [],
@@ -148,8 +148,8 @@
         "key": "fontWeight",
         "config": {
           "type": "string",
-          "component": "input",
-          "alias": "",
+          "component": "fontWeight",
+          "alias": "字体粗细",
           "tip": "",
           "displayMode": "single",
           "features": [],
@@ -185,8 +185,8 @@
     "key": "textAlign",
     "config": {
       "type": "string",
-      "component": "input",
-      "alias": "",
+      "component": "justifyContent",
+      "alias": "对齐方式",
       "tip": "",
       "displayMode": "single",
       "features": [],
@@ -214,8 +214,8 @@
     "key": "writingMode",
     "config": {
       "type": "string",
-      "component": "input",
-      "alias": "",
+      "component": "writingMode",
+      "alias": "文字排列方式",
       "tip": "",
       "displayMode": "single",
       "features": [],
@@ -244,7 +244,7 @@
     "config": {
       "type": "number",
       "component": "number",
-      "alias": "",
+      "alias": "文字间隔",
       "tip": "",
       "displayMode": "single",
       "features": [],
@@ -252,12 +252,12 @@
       "toggleCol": "",
       "isHide": false,
       "defaultValue": 0,
-      "min": 0,
-      "max": 100,
-      "step": 1,
+      "min": -88888,
+      "max": 88888,
+      "step": 0.5,
       "InfiniteMin": false,
       "InfiniteMax": false,
-      "suffix": "",
+      "suffix": "px",
       "enums": [],
       "whichEnum": {
         "field": "",
@@ -273,12 +273,12 @@
     "config": {
       "type": "object",
       "component": "none",
-      "alias": "",
+      "alias": "背景样式",
       "tip": "",
       "displayMode": "nest",
       "features": [],
       "layout": "horizontal",
-      "toggleCol": "",
+      "toggleCol": "show",
       "isHide": false,
       "defaultValue": null,
       "min": 0,
@@ -330,8 +330,8 @@
         "key": "bgColor",
         "config": {
           "type": "string",
-          "component": "input",
-          "alias": "",
+          "component": "color",
+          "alias": "背景色",
           "tip": "",
           "displayMode": "single",
           "features": [],
@@ -360,7 +360,7 @@
         "config": {
           "type": "number",
           "component": "number",
-          "alias": "",
+          "alias": "圆角",
           "tip": "",
           "displayMode": "single",
           "features": [],
@@ -369,11 +369,11 @@
           "isHide": false,
           "defaultValue": 15,
           "min": 0,
-          "max": 100,
+          "max": 88888,
           "step": 1,
           "InfiniteMin": false,
           "InfiniteMax": false,
-          "suffix": "",
+          "suffix": "px",
           "enums": [],
           "whichEnum": {
             "field": "",
@@ -388,8 +388,8 @@
         "key": "borderColor",
         "config": {
           "type": "string",
-          "component": "input",
-          "alias": "",
+          "component": "color",
+          "alias": "边框颜色",
           "tip": "",
           "displayMode": "single",
           "features": [],
@@ -417,8 +417,8 @@
         "key": "borderStyle",
         "config": {
           "type": "string",
-          "component": "input",
-          "alias": "",
+          "component": "lineStyle",
+          "alias": "边框粗细",
           "tip": "",
           "displayMode": "single",
           "features": [],
@@ -447,7 +447,7 @@
         "config": {
           "type": "number",
           "component": "number",
-          "alias": "",
+          "alias": "边框粗细",
           "tip": "",
           "displayMode": "single",
           "features": [],
@@ -456,11 +456,11 @@
           "isHide": false,
           "defaultValue": 1,
           "min": 0,
-          "max": 100,
+          "max": 88888,
           "step": 1,
           "InfiniteMin": false,
           "InfiniteMax": false,
-          "suffix": "",
+          "suffix": "px",
           "enums": [],
           "whichEnum": {
             "field": "",
@@ -486,8 +486,8 @@
     "config": {
       "type": "boolean",
       "component": "switch",
-      "alias": "",
-      "tip": "",
+      "alias": "省略号",
+      "tip": "溢出文本加省略号",
       "displayMode": "single",
       "features": [],
       "layout": "horizontal",
@@ -515,8 +515,8 @@
     "config": {
       "type": "object",
       "component": "none",
-      "alias": "",
-      "tip": "",
+      "alias": "超链接配置",
+      "tip": "点击标题区域可跳转至设定的超链接",
       "displayMode": "nest",
       "features": [],
       "layout": "horizontal",
@@ -544,7 +544,7 @@
         "config": {
           "type": "string",
           "component": "input",
-          "alias": "",
+          "alias": "超链接",
           "tip": "",
           "displayMode": "single",
           "features": [],
@@ -573,7 +573,7 @@
         "config": {
           "type": "boolean",
           "component": "switch",
-          "alias": "",
+          "alias": "是否新开窗口",
           "tip": "",
           "displayMode": "single",
           "features": [],
@@ -602,277 +602,5 @@
       "url",
       "isBlank"
     ]
-  },
-  {
-    "key": "animation",
-    "config": {
-      "type": "object",
-      "component": "none",
-      "alias": "",
-      "tip": "",
-      "displayMode": "nest",
-      "features": [],
-      "layout": "horizontal",
-      "toggleCol": "",
-      "isHide": false,
-      "defaultValue": null,
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "InfiniteMin": false,
-      "InfiniteMax": false,
-      "suffix": "",
-      "enums": [],
-      "whichEnum": {
-        "field": "",
-        "value": ""
-      },
-      "flatValue": false
-    },
-    "path": "animation",
-    "virtualPath": "",
-    "children": [
-      {
-        "key": "enable",
-        "config": {
-          "type": "boolean",
-          "component": "switch",
-          "alias": "",
-          "tip": "",
-          "displayMode": "single",
-          "features": [],
-          "layout": "horizontal",
-          "toggleCol": "",
-          "isHide": false,
-          "defaultValue": false,
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "InfiniteMin": false,
-          "InfiniteMax": false,
-          "suffix": "",
-          "enums": [],
-          "whichEnum": {
-            "field": "",
-            "value": ""
-          },
-          "flatValue": false
-        },
-        "path": "animation.enable",
-        "virtualPath": ""
-      },
-      {
-        "key": "name",
-        "config": {
-          "type": "string",
-          "component": "input",
-          "alias": "",
-          "tip": "",
-          "displayMode": "single",
-          "features": [],
-          "layout": "horizontal",
-          "toggleCol": "",
-          "isHide": false,
-          "defaultValue": "Updown",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "InfiniteMin": false,
-          "InfiniteMax": false,
-          "suffix": "",
-          "enums": [],
-          "whichEnum": {
-            "field": "",
-            "value": ""
-          },
-          "flatValue": false
-        },
-        "path": "animation.name",
-        "virtualPath": ""
-      },
-      {
-        "key": "duration",
-        "config": {
-          "type": "number",
-          "component": "number",
-          "alias": "",
-          "tip": "",
-          "displayMode": "single",
-          "features": [],
-          "layout": "horizontal",
-          "toggleCol": "",
-          "isHide": false,
-          "defaultValue": 1000,
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "InfiniteMin": false,
-          "InfiniteMax": false,
-          "suffix": "",
-          "enums": [],
-          "whichEnum": {
-            "field": "",
-            "value": ""
-          },
-          "flatValue": false
-        },
-        "path": "animation.duration",
-        "virtualPath": ""
-      },
-      {
-        "key": "timing",
-        "config": {
-          "type": "string",
-          "component": "input",
-          "alias": "",
-          "tip": "",
-          "displayMode": "single",
-          "features": [],
-          "layout": "horizontal",
-          "toggleCol": "",
-          "isHide": false,
-          "defaultValue": "linear",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "InfiniteMin": false,
-          "InfiniteMax": false,
-          "suffix": "",
-          "enums": [],
-          "whichEnum": {
-            "field": "",
-            "value": ""
-          },
-          "flatValue": false
-        },
-        "path": "animation.timing",
-        "virtualPath": ""
-      },
-      {
-        "key": "delay",
-        "config": {
-          "type": "number",
-          "component": "number",
-          "alias": "",
-          "tip": "",
-          "displayMode": "single",
-          "features": [],
-          "layout": "horizontal",
-          "toggleCol": "",
-          "isHide": false,
-          "defaultValue": 0,
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "InfiniteMin": false,
-          "InfiniteMax": false,
-          "suffix": "",
-          "enums": [],
-          "whichEnum": {
-            "field": "",
-            "value": ""
-          },
-          "flatValue": false
-        },
-        "path": "animation.delay",
-        "virtualPath": ""
-      },
-      {
-        "key": "iteration",
-        "config": {
-          "type": "string",
-          "component": "input",
-          "alias": "",
-          "tip": "",
-          "displayMode": "single",
-          "features": [],
-          "layout": "horizontal",
-          "toggleCol": "",
-          "isHide": false,
-          "defaultValue": "infinite",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "InfiniteMin": false,
-          "InfiniteMax": false,
-          "suffix": "",
-          "enums": [],
-          "whichEnum": {
-            "field": "",
-            "value": ""
-          },
-          "flatValue": false
-        },
-        "path": "animation.iteration",
-        "virtualPath": ""
-      },
-      {
-        "key": "direction",
-        "config": {
-          "type": "string",
-          "component": "input",
-          "alias": "",
-          "tip": "",
-          "displayMode": "single",
-          "features": [],
-          "layout": "horizontal",
-          "toggleCol": "",
-          "isHide": false,
-          "defaultValue": "alternate",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "InfiniteMin": false,
-          "InfiniteMax": false,
-          "suffix": "",
-          "enums": [],
-          "whichEnum": {
-            "field": "",
-            "value": ""
-          },
-          "flatValue": false
-        },
-        "path": "animation.direction",
-        "virtualPath": ""
-      }
-    ],
-    "cols": [
-      "enable",
-      "name",
-      "duration",
-      "timing",
-      "delay",
-      "iteration",
-      "direction"
-    ]
-  },
-  {
-    "key": "cursor",
-    "config": {
-      "type": "string",
-      "component": "input",
-      "alias": "",
-      "tip": "",
-      "displayMode": "single",
-      "features": [],
-      "layout": "horizontal",
-      "toggleCol": "",
-      "isHide": false,
-      "defaultValue": "default",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "InfiniteMin": false,
-      "InfiniteMax": false,
-      "suffix": "",
-      "enums": [],
-      "whichEnum": {
-        "field": "",
-        "value": ""
-      },
-      "flatValue": false
-    },
-    "path": "cursor",
-    "virtualPath": ""
   }
 ]

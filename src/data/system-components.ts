@@ -537,6 +537,14 @@ export const button = {
       visible: true
     },
     {
+      name: "VButton2",
+      alias: "按钮2",
+      img: `${imagePath}按钮.png`,
+      thum: `${thumPath}按钮.png`,
+      used: true,
+      visible: true
+    },
+    {
       name: "VSwitch",
       alias: "开关",
       img: `${imagePath}开关.png`,

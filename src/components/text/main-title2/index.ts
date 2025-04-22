@@ -5,7 +5,7 @@ import MainTitle2 from './src/index.vue'
 
 MainTitle2.install = (app: App) => {
   app.component(MainTitle2.name, MainTitle2)
-  app.component('VMainTitleProp2', loadAsyncComponent(() => import('./src/config.vue')))
+  app.component('VMainTitle2Prop', loadAsyncComponent(() => import('./src/config.vue')))
 }
 
 export default MainTitle2 as SFCWithInstall<typeof MainTitle2>
