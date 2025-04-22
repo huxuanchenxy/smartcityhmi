@@ -1,5 +1,6 @@
 import type { App } from 'vue'
 import VMainTitle from './text/main-title'
+import VMainTitle2 from './text/main-title2'
 import VNumberTitleFlop from './text/number-title-flop'
 import VMarquee from './text/marquee'
 import VParagraph from './text/paragraph'
@@ -111,6 +112,7 @@ import VBasicForm from './form/basic-form'
 
 const components = [
   VMainTitle,
+  VMainTitle2,
   VNumberTitleFlop,
   VDatePicker,
   VBgBox,

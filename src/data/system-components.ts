@@ -434,6 +434,14 @@ export const title = {
       visible: true
     },
     {
+      name: "VMainTitle2",
+      alias: "通用标题22",
+      img: `${imagePath}通用标题.png`,
+      thum: `${thumPath}通用标题.png`,
+      used: true,
+      visible: true
+    },
+    {
       name: "VMarquee",
       alias: "跑马灯",
       img: `${imagePath}跑马灯.png`,

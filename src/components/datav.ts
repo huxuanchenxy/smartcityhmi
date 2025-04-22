@@ -102,6 +102,7 @@ export async function createComponent(name: string) {
 
     // text
     case "MainTitle":
+    case "MainTitle2":
     case "Marquee":
     case "NumberTitleFlop":
     case "Paragraph":
